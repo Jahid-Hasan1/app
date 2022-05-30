@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+       body {
+text-align: center;
+}
+form {
+    display: inline-block;
+}
+    </style>
+
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Y2 TEXT</div>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a class="active" href="/index.html">Home</a></li>
+        <li><a href="/about-us.html">About</a></li>
+        <li><a href="/privacy_policy.html">Privacy Policy</a></li>
+        <li><a href="/terms_of_service.html">Terms</a></li>
+        <li><a href="/contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <link href="/static/contact-form.css" rel="stylesheet">
+
+<div class="fcf-body">
+
+    <div id="fcf-form">
+    <h3 class="fcf-h3">Contact us</h3>
+
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        </div>
+
+        <div class="fcf-credit" id="fcf-credit">
+        Alternatively, Email us at: <a href="mailto:y2text.tool@gmail.com" target="_blank">our email address.</a>
+        </div>
+
+    </form>
+    </div>
+
+</div>
+
+
+    <div class="footer-basic">
+        <footer>
+
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="/index.html">Home</a></li>
+                <li class="list-inline-item"><a href="/about-us.html">About</a></li>
+                <li class="list-inline-item"><a href="/terms_of_service.html">Terms of Service</a></li>
+                <li class="list-inline-item"><a href="/privacy_policy.html">Privacy Policy</a></li>
+                <li class="list-inline-item"><a href="/contact.html">Contact</a></li>
+            </ul>
+            <p class="copyright">Y2 Text © 2022</p>
+        </footer>
+    </div>
+  </body>
+</html>
